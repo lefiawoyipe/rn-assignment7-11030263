@@ -51,7 +51,7 @@ const CartScreen = ({ navigation }) => {
       {/* Cart items list */}
       <FlatList
         data={cart}
-        keyExtractor={(item, index) => `${item.id}-${index}`} // Ensure unique keys
+        keyExtractor={(item, index) => `${item.id}-${index}`} 
 
         renderItem={({ item }) => (
           <View style={styles.itemContainer}>

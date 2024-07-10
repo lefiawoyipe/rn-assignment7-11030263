@@ -61,8 +61,8 @@ const ProductDetailScreen = ({ route, navigation }) => {
           />
         </View>
         <Text style={styles.shippingInfo}>
-          Free Flat Rate Shipping Estimated to be delivered on 09/11/2021 -
-          12/11/2021.
+          Free Flat Rate Shipping Estimated to be delivered on 09/11/2024 -
+          12/11/2024.
         </Text>
       </View>
       <TouchableOpacity
